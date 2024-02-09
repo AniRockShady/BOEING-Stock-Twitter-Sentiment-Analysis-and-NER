@@ -1,6 +1,9 @@
 # Sentiment Analysis and NER on Boeing Stock Related Tweets
  This Project is based on the efforts to Analyze the twitter sentiments on Boeing over time and also analyse the entities that are related/mentioned in the tweets. Please find the attached **Twitter Senitment Analysis along with Named Entity Recognition project report.pdf** for a detailed work report. <br>
 <br>
+## Data Credits
+https://github.com/yumoxu/stocknet-dataset
+
 ## Sentiment Analysis
  The sentiment analysis was conducted on the prepared data using the **Valence Aware Dictionary and Sentiment Reasoner (VADER) scoring technique**. The pre-trained SentimentIntensityAnalyzer class from the Natural Language Toolkit **nlkt.sentiment** was used for this analysis. The scoring technique is used to evaluate the tweets and assign the corresponding sores to the adjacent column (“compound_sentiment_score”). <br>
 Three word clouds are prepared for analysis from the positive (score > 00.5), negative (score < 0.05) and neutral (-0.05 > score < 0.05) scored tweets to check the most frequent words leading to these sentiment. <br>
